@@ -146,3 +146,39 @@ body {
     margin-right: 160px;
 
 }
+
+.mobile-title {
+    text-align: center;
+    font-weight: bold;
+    font-size: 44px;
+    line-height: 36px;
+    margin: 70px 0;
+}
+.mobile-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.mobile-flex_pretitle {
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 36px;
+    color: #FA4A0C;
+}
+.mobile-flex_title {
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 57px;
+    max-width: 560px;
+    margin: 7px 0;
+}
+.mobile-flex_text {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 38px;
+    color: #737373;
+    max-width: 460px;
+}
+.container-mobile {
+    padding: 100px 0 ;
+}
