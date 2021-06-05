@@ -1,16 +1,33 @@
 body {
     font-family: 'Montserrat', sans-serif;
 }
-a {
-    color: rgba(0,0,0,.5);
-    font-size: 20px;
-    font-weight: bold;
-    text-decoration: none;
-}
 
 .container {
     max-width: 1200px;
     margin: 0px auto;
+}
+
+.nav-link {
+    line-height: 28px;
+    font-weight: bold;
+    color: black;
+    text-decoration: none;
+}
+
+.nav-link:hover{
+    color: #FA4A0C;
+
+} 
+
+.header-flex {
+    padding: 20px 0;
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+
+}
+.nav-el {
+    margin-right: 100px;
 }
 
 .app {
@@ -113,4 +130,19 @@ a {
     width: 173px;
     height: 60px;
     border-radius: 10px;
+}
+
+.footer-flex {
+    margin: 110px 0 55px 205px;
+    display: flex; 
+    justify-content: space-between;
+    align-items: center; 
+}
+.date {
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 18px;
+    color: #5C5C5C;
+    margin-right: 160px;
+
 }
